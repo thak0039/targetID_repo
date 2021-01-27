@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,11 +18,6 @@ nav {
     left: 0;
     z-index: 1;
 }
-
-.heading1,
-.heading2,
-.heading3,
-.heading4 {}
 
 #had1 {
     margin-top: 4rem;
@@ -41,6 +40,7 @@ p {
 }
 
 .nav-container h2 {
+    cursor: pointer;
     margin: 0 100px;
 }
 
